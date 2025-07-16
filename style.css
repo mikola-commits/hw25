@@ -1,0 +1,29 @@
+.red,
+.blue,
+.green {
+  width: 60px;
+  height: 60px;
+}
+.red {
+  background-color: rgb(255, 76, 76);
+
+}
+
+.blue {
+  background-color: rgb(81, 81, 255);
+  position: absolute;
+  top: 27%;
+  left: 25%;
+}
+
+.green {
+  background-color: rgb(7, 221, 7);
+  position: absolute;
+  top: 32%;
+  left: 29%;
+  z-index: -1;
+}
+
+.container{
+    margin: 20%;
+}
